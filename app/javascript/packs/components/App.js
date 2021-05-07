@@ -1,11 +1,13 @@
 import React from 'react'
 import Hello from './Hello'
+import NavBar from './NavBar'
 
 export const App = () => {
   return (
-    <div>
+    <>
+      <NavBar></NavBar>
       <Hello>Hello world</Hello>
-    </div>
+    </>
   )
 }
 
